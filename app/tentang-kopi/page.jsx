@@ -2,96 +2,94 @@ const jenisKopi = [
     {
         nama: 'Arabika',
         deskripsi: 'Kopi Arabika adalah varietas yang paling populer di dunia, dengan cita rasa yang halus dan kompleks. Tumbuh di dataran tinggi dengan ketinggian 600-2000 meter di atas permukaan laut.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Robusta',
         deskripsi: 'Kopi Robusta memiliki kandungan kafein lebih tinggi dan rasa yang lebih kuat. Lebih tahan terhadap hama dan dapat tumbuh di dataran yang lebih rendah.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Liberica',
         deskripsi: 'Kopi Liberica memiliki biji yang lebih besar dan rasa yang unik dengan aroma yang kuat. Varietas ini lebih jarang ditemui dan tumbuh di iklim tropis.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Excelsa',
         deskripsi: 'Kopi Excelsa adalah varietas yang sering dikategorikan sebagai subspesies Liberica. Memiliki rasa yang tajam, fruity, dan aroma yang unik, cocok untuk campuran kopi.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Geisha',
         deskripsi: 'Kopi Geisha dikenal dengan profil rasa yang floral, fruity, dan kompleks. Banyak ditemukan di Panama dan menjadi salah satu varietas kopi termahal di dunia.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Charrieriana',
         deskripsi: 'Kopi Charrieriana berasal dari Afrika Barat dan unik karena alami tanpa kafein. Cocok untuk penikmat kopi yang ingin mengurangi konsumsi kafein.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Luwak',
         deskripsi: 'Kopi Luwak adalah kopi unik yang difermentasi di dalam saluran pencernaan luwak. Memiliki rasa yang lembut dan eksklusif, menjadi salah satu kopi termahal di dunia.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Gayo',
         deskripsi: 'Kopi Gayo berasal dari Aceh, Indonesia. Dikenal dengan rasa earthy, mild acidity, dan aroma rempah yang khas. Banyak disukai oleh pecinta kopi lokal maupun internasional.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Toraja',
         deskripsi: 'Kopi Toraja berasal dari Sulawesi Selatan, Indonesia. Dikenal dengan rasa bold, earthy, dan hint rempah-rempah. Cocok untuk penikmat kopi dengan rasa yang kuat.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
-        nama: 'Kopi Flores Bajawa',
+        nama: 'Flores Bajawa',
         deskripsi: 'Kopi Flores Bajawa berasal dari Nusa Tenggara Timur. Memiliki rasa chocolatey dengan acidity rendah dan aroma floral yang khas.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Bali Kintamani',
         deskripsi: 'Kopi Bali Kintamani berasal dari Bali. Memiliki rasa citrus yang khas dengan acidity yang segar karena metode tanamnya menggunakan sistem tumpang sari.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Mandailing',
         deskripsi: 'Kopi Mandailing berasal dari Sumatera Utara. Dikenal dengan rasa smooth, body yang tebal, dan hint rasa cokelat atau rempah.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Jawa',
         deskripsi: 'Kopi Jawa dikenal dengan rasa yang clean, acidity yang seimbang, dan body medium. Banyak ditanam di dataran tinggi Ijen dan sekitarnya.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Sidikalang',
         deskripsi: 'Kopi Sidikalang berasal dari Sumatera Utara. Memiliki rasa yang kuat, aroma khas, dan body yang bold, cocok untuk pecinta kopi dengan karakter yang intens.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Wamena',
         deskripsi: 'Kopi Wamena berasal dari Papua. Dikenal dengan rasa earthy, acidity ringan, dan aroma floral. Tumbuh secara organik di pegunungan Jayawijaya.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Blue Mountain',
         deskripsi: 'Kopi Blue Mountain berasal dari Jamaika dan dianggap sebagai salah satu kopi terbaik di dunia. Memiliki rasa smooth, sweet, dan aroma yang kaya.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Vietnam',
         deskripsi: 'Kopi Vietnam dikenal dengan gaya penyajian unik menggunakan drip filter (phin) dan sering disajikan dengan susu kental manis. Rasa cenderung bold dan manis.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     },
     {
         nama: 'Kopi Ethiopia',
         deskripsi: 'Kopi Ethiopia, dikenal sebagai tempat asal kopi, memiliki profil rasa yang fruity, floral, dan acidity yang cerah. Cocok untuk penyajian metode pour-over.',
-        image: ""
+        image: "assets/Coffee/arabica.jpg"
     }
 ];
-
-
 
 const TentangKopi = () => {
     return (
@@ -103,8 +101,6 @@ const TentangKopi = () => {
                     <p className="text-xl">Menjelajahi Perjalanan Minuman yang Mendunia</p>
                 </div>
             </div>
-
-
 
             {/* Content Sections */}
             <div className="container mx-auto px-4 py-12">
@@ -125,25 +121,23 @@ const TentangKopi = () => {
                         {jenisKopi.map((kopi, index) => (
                             <div
                                 key={index}
-                                className="bg-white rounded-lg shadow-lg p-14 transition-transform hover:scale-105"
+                                className="relative h-[400px] rounded-lg shadow-lg overflow-hidden transition-transform"
                                 data-scroll
                                 data-scroll-speed="0.3"
                             >
-                                {kopi.image && (
-                                    <img
-                                        src={kopi.image}
-                                        alt={kopi.nama}
-                                        className="w-full h-48 object-cover rounded-lg mb-4"
-                                    />
-                                )}
-                                <h1 className="text-2xl font-bold mb-3 text-coffee">{kopi.nama}</h1>
-                                <p className="text-gray-700 text-sm">{kopi.deskripsi}</p>
+                                <div 
+                                    className="absolute inset-0 bg-cover bg-center z-0"
+                                    style={{ backgroundImage: `url(${kopi.image})` }}
+                                />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent z-10" />
+                                <div className="relative z-20 h-full flex flex-col justify-end p-6">
+                                    <h1 className="text-9xl font-semibold mb-3 text-center text-white">{kopi.nama}</h1>
+                                    <p className="text-gray-200 text-lg">{kopi.deskripsi}</p>
+                                </div>
                             </div>
                         ))}
                     </div>
                 </section>
-
-
             </div>
         </div>
     );

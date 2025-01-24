@@ -1,3 +1,7 @@
+"use client"
+
+import Social from "../components/SocialMedia";
+
 const TentangKami = () => {
     return (
         <div className="bg-latte text-coffee min-h-screen py-16">
@@ -70,6 +74,22 @@ const TentangKami = () => {
                         </div>
                     </div>
                 </div>
+                {/* Add Maps section */}
+                <div className="mt-16">
+                    <h2 className="text-3xl font-semibold mb-8 text-center">Lokasi Kami</h2>
+                    <div className="w-full h-[400px] rounded-xl overflow-hidden">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2904049411774!2d106.80575731476882!3d-6.227307395493508!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f1505c76d775%3A0xe8503eecf84be674!2sJl.%20Jend.%20Sudirman%2C%20Daerah%20Khusus%20Ibukota%20Jakarta!5e0!3m2!1sid!2sid!4v1625647152544!5m2!1sid!2sid"
+                            width="100%"
+                            height="100%"
+                            style={{ border: 0 }}
+                            allowFullScreen=""
+                            loading="lazy"
+                            referrerPolicy="no-referrer-when-downgrade"
+                        ></iframe>
+                    </div>
+                </div>
+
             </div>
         </div>
     );

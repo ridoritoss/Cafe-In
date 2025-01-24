@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
+import Social from "../components/SocialMedia";
 
 const Footer = () => {
   return (
@@ -48,38 +48,7 @@ const Footer = () => {
           <p className="text-sm mb-2">Email: support@cafe-in.com</p>
           <p className="text-sm mb-4">Telp: +62 812-3456-7890</p>
           <div className="flex space-x-4">
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-300 transition"
-            >
-              <FaFacebook size={24} />
-            </a>
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-300 transition"
-            >
-              <FaInstagram size={24} />
-            </a>
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-300 transition"
-            >
-              <FaTwitter size={24} />
-            </a>
-            <a
-              href="https://youtube.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-300 transition"
-            >
-              <FaYoutube size={24} />
-            </a>
+            <Social />
           </div>
         </div>
       </div>
