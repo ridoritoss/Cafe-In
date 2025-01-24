@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-fade {
+  transition: background-image 1s ease-in-out;
+}
+
+:root {
+  --color-primary: #6b4226; /* Warna kopi */
+  --color-latte: #f9f5f0; /* Background terang */
+  --color-coffee: #4b2e1e; /* Teks gelap */
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.bg-latte {
+  background-color: var(--color-latte);
+}
+
+.text-coffee {
+  color: var(--color-coffee);
+}
