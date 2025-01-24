@@ -28,19 +28,14 @@ const Header = () => {
                         Menu
                     </Link>
                     <Link
-                        href="/menu"
+                        href="/tentang-kami"
                         className="text-latte hover:text-yellow-400 transition">
                         Tentang Kami
                     </Link>
                     <Link
-                        href="/menu"
+                        href="/tentang-kopi"
                         className="text-latte hover:text-yellow-400 transition">
-                        Hubungi
-                    </Link>
-                    <Link
-                        href="/menu"
-                        className="text-latte hover:text-yellow-400 transition">
-                        Lokasi
+                        Tentang Kopi
                     </Link>
                 </nav>
 
