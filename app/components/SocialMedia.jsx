@@ -40,7 +40,7 @@ const Social = () => {
                     href={social.url}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-white hover:text-latte transition-all delay-150"
+                    className="text-latte hover:scale-110 transition-all delay-150"
                 >
                     {social.icon}
                 </a>

@@ -19,9 +19,32 @@ const MultiLayerParallax = () => {
         >
             <motion.h1
                 style={{ y: textY }}
-                className="font-extrabold mb-40 text-end text-white text-5xl md:text-9xl z-10">
-                <span className="text-transparent">....</span>WELCOME TO CAFE-IN
+                className="font-extrabold text-end mt-40 text-white text-5xl md:text-9xl z-10">
+                WELCOME TO CAFE-IN
             </motion.h1>
+
+            <motion.h3 className="text-white text-2xl md:text-4xl z-10">
+                This is our journey to the best coffee in the world.
+            </motion.h3>
+
+            <motion.p className="max-w-lg space-y-4 grid-cols-2 p-4 mx-auto text-white z-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore porro,
+                commodi molestiae eveniet ratione? Temporibus, optio eaque accusamus facilis minus atque quas id,
+                nam blanditiis eligendi laudantium aperiam possimus,
+                voluptatem expedita eius ratione voluptate repudiandae exercitationem autem sint porro.
+            </motion.p>
+            <motion.p className="max-w-lg space-y-4 grid-cols-2 p-4 mx-auto text-white z-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore porro,
+                commodi molestiae eveniet ratione? Temporibus, optio eaque accusamus facilis minus atque quas id,
+                nam blanditiis eligendi laudantium aperiam possimus,
+                voluptatem expedita eius ratione voluptate repudiandae exercitationem autem sint porro.
+            </motion.p>
+            <motion.p className="max-w-lg space-y-4 grid-cols-2 p-4 mx-auto text-white z-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore porro,
+                commodi molestiae eveniet ratione? Temporibus, optio eaque accusamus facilis minus atque quas id,
+                nam blanditiis eligendi laudantium aperiam possimus,
+                voluptatem expedita eius ratione voluptate repudiandae exercitationem autem sint porro.
+            </motion.p>
 
             <motion.div
                 className="absolute inset-0 z-0"

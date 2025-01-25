@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-latte text-coffee`}
       >
         {/* Header */}
-        <Header />
+          <Header className="mb-8" />
 
-        {/* Animasi Transisi Antar Halaman */}
+          {/* Animasi Transisi Antar Halaman */}
           <main>{children}</main>
 
         {/* Footer */}

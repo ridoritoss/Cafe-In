@@ -4,7 +4,7 @@ import Social from "../components/SocialMedia";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-white py-10">
+    <footer className="bg-primary text-latte py-10">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* About Section */}
         <div>

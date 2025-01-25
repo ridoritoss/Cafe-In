@@ -19,7 +19,7 @@
 }
 
 :root {
-  --color-primary: #6b4226; /* Warna kopi */
+  --color-primary: #000000; /* Warna kopi */
   --color-latte: #f9f5f0; /* Background terang */
   --color-coffee: #4b2e1e; /* Teks gelap */
 }
@@ -38,4 +38,36 @@
 
 .text-coffee {
   color: var(--color-coffee);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
+
+/* Animasi masuk */
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Animasi keluar */
+.animate-fadeOut {
+  animation: fadeOut 0.3s ease-in-out;
 }

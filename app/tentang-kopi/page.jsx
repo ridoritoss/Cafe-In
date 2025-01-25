@@ -93,9 +93,9 @@ const jenisKopi = [
 
 const TentangKopi = () => {
     return (
-        <div className="bg-cream min-h-screen">
+        <div className="bg-primary min-h-screen">
             {/* Hero Section */}
-            <div className="bg-coffee bg-opacity-90 text-cream py-20 px-4">
+            <div className="bg-primary bg-opacity-90 text-latte py-20 px-4">
                 <div className="container mx-auto text-center">
                     <h1 className="text-4xl md:text-6xl font-bold mb-4">Sejarah Kopi</h1>
                     <p className="text-xl">Menjelajahi Perjalanan Minuman yang Mendunia</p>
@@ -106,9 +106,9 @@ const TentangKopi = () => {
             <div className="container mx-auto px-4 py-12">
                 {/* Kopi Indonesia */}
                 <section className="mb-16">
-                    <h2 className="text-3xl font-bold text-coffee mb-6">Kopi Indonesia</h2>
-                    <div className="bg-white rounded-lg shadow-lg p-6">
-                        <p className="text-gray-700 leading-relaxed">
+                    <h2 className="text-3xl font-bold text-latte mb-6">Kopi Indonesia</h2>
+                    <div className="bg-primary rounded-lg shadow-lg p-6">
+                        <p className="text-latte leading-relaxed">
                             Indonesia adalah salah satu produsen kopi terbesar di dunia. Beberapa varian kopi terkenal dari Indonesia termasuk Kopi Gayo dari Aceh, Kopi Toraja dari Sulawesi, dan Kopi Luwak yang terkenal sebagai kopi termahal di dunia.
                         </p>
                     </div>
@@ -116,7 +116,7 @@ const TentangKopi = () => {
 
                 {/* Hero Section with Dynamic Images */}
                 <section data-scroll-section className="mb-16">
-                    <h2 className="text-3xl font-bold text-coffee mb-6" data-scroll data-scroll-speed="1">Varietas Kopi</h2>
+                    <h2 className="text-3xl font-bold text-latte mb-6" data-scroll data-scroll-speed="1">Varietas Kopi</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
                         {jenisKopi.map((kopi, index) => (
                             <div
