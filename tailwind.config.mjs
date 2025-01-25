@@ -18,6 +18,15 @@ export default {
       xl: "1430px",
     },
     extend: {
+      animation: {
+        marquee: 'marquee 15s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
         serif: ['Merriweather', 'serif'],

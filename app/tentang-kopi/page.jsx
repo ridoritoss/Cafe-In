@@ -131,7 +131,10 @@ const TentangKopi = () => {
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent z-10" />
                                 <div className="relative z-20 h-full flex flex-col justify-end p-6">
-                                    <h1 className="text-9xl font-semibold mb-3 text-center text-white">{kopi.nama}</h1>
+                                    <h1 className="block md:hidden text-9xl font-semibold text-center mb-3 text-white animate-marquee whitespace-nowrap">
+                                        <span className="inline-block">{kopi.nama}</span>
+                                    </h1>
+                                    <h3 className="hidden md:block font-semibold text-white mb-3">{kopi.nama}</h3>
                                     <p className="text-gray-200 text-lg">{kopi.deskripsi}</p>
                                 </div>
                             </div>

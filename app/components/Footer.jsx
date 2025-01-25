@@ -29,13 +29,13 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-gray-300 transition">
+              <Link href="/tentang-kami" className="hover:text-gray-300 transition">
                 Tentang Kami
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-gray-300 transition">
-                Hubungi Kami
+              <Link href="/tentang-kopi" className="hover:text-gray-300 transition">
+                Tentang Kopi
               </Link>
             </li>
           </ul>

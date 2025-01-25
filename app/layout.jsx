@@ -1,7 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
-import PageTransition from "./components/PageTransition"; // Import PageTransition
 import Footer from "./components/Footer";
 
 const geistSans = Geist({
@@ -29,9 +28,7 @@ export default function RootLayout({ children }) {
         <Header />
 
         {/* Animasi Transisi Antar Halaman */}
-        <PageTransition>
           <main>{children}</main>
-        </PageTransition>
 
         {/* Footer */}
         <Footer />
